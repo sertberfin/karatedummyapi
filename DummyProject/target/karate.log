@@ -1,0 +1,32 @@
+22:42:41.361 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.2.0
+22:42:41.538 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:42:41.558 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 60
+22:42:42.325 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - karate.env system property was: null 
+22:42:42.615 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fdelay=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:42:42.915 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 297
+1 < 200
+1 < Date: Mon, 24 Oct 2022 19:42:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nUd6DPf%2FPnX7STdlrEJPrFifmmrOFxh4XNNqFF75D%2BYJzrWk9FGpLvymARPRZ1h2SbJdq87QZ8N0QNlB7bk3hS8uJDnjux7dN5e9RQ7WJcT5Aux0SIUHzi588Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 75f5327e2a4ce19f-IST
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:42:43.786 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/dummyApp/features/SignUp.feature
